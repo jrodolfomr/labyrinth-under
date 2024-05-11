@@ -1,6 +1,6 @@
 # LABYRINTH  Under A Bored Cat
 
-## Game's Page https://jrodolfomr.github.com/labyrinth-under  
+## Game's Page https://jrodolfomr.github.io/labyrinth-under  
 
 A Labyrinth Puzzle Game where the main objective is to escape the maze through a series of obstacles, obtaining points along the way. Many hazards are present, and many abilities sush like breaking walls and teleportation, among other features. Avoid the spiders in order to survive the game.
 
