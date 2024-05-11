@@ -1,0 +1,110 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button.gameModeBtn {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  width: 70px;
+  height: 70px;
+  border-radius: 140px;
+  border: 0px solid #d6d6d6;
+  transition: width 0.2s;
+  background-color: cadetblue;
+  /*//wrest of your styles */
+}
+button.options {
+  position: absolute;
+  bottom: 90px;
+  right: 5px;
+  width: 70px;
+  height: 70px;
+  border-radius: 140px;
+  border: 0px solid #d6d6d6;
+  transition: width 0.2s;
+  background-color: #15523e;
+  /*//wrest of your styles */
+}
+
+.gameModeBtn:hover,
+.options:hover {
+  width: 145px;
+  transition: width 0.1s;
+  overflow: hidden;
+}
+
+.gameModeBtn span,
+.options span {
+  position: relative;
+  content: "NEW";
+}
+
+.item {
+  width: 30px;
+}
+a {
+  text-decoration: none;
+}
+.label {
+  padding: 5px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.item a p.new-label span {
+  position: relative;
+  zoom: 0.6;
+  bottom: 12px;
+}
+.item:hover a p.new-label span {
+  display: none;
+}
+.gameModeBtn:hover a p.new-label:after {
+  content: "Change Mode";
+}
+.options:hover a p.new-label:after {
+  content: "Options";
+}
